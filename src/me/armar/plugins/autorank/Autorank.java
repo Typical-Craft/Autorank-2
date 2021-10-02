@@ -639,17 +639,6 @@ public class Autorank extends JavaPlugin {
         RequirementBuilder.registerRequirement("uhcstats deaths", UhcStatsDeathsRequirement.class);
         RequirementBuilder.registerRequirement("uhcstats wins", UhcStatsWinsRequirement.class);
 
-        // Towny Advanced
-        RequirementBuilder.registerRequirement("towny has town", TownyHasATownRequirement.class);
-        RequirementBuilder.registerRequirement("towny has nation", TownyHasANationRequirement.class);
-        RequirementBuilder.registerRequirement("towny is mayor", TownyIsMayorRequirement.class);
-        RequirementBuilder.registerRequirement("towny is king", TownyIsKingRequirement.class);
-        RequirementBuilder.registerRequirement("towny town blocks", TownyNumberOfTownBlocksRequirement.class);
-
-        // McRPG
-        RequirementBuilder.registerRequirement("mcrpg skill level", McRPGSkillLevelRequirement.class);
-        RequirementBuilder.registerRequirement("mcrpg power level", McRPGPowerLevelRequirement.class);
-
         // AureliumSkills
         RequirementBuilder.registerRequirement("aurelium skills skill level", AureliumSkillsSkillRequirement.class);
         RequirementBuilder.registerRequirement("aurelium skills stat level", AureliumSkillsStatRequirement.class);
